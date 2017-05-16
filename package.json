@@ -6,7 +6,7 @@
   "scripts": {
     "test": "karma start",
     "build": "webpack -p",
-    "start": "node server.js"
+    "start": "webpack -p && node server.js"
   },
   "author": "James Austin Hattox",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
-    "react-router": "^4.1.1"
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
