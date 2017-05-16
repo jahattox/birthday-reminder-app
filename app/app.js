@@ -5,6 +5,6 @@ import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 require('style-loader!css-loader!sass-loader!applicationStyles');
 
 ReactDOM.render(
-	<p>React.js Boilerplate</p>,
+	<p>Birthday Reminder App</p>,
   document.getElementById('app')
 );
